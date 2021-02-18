@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.foot-container {
+  background: linear-gradient(90deg, rgb(77, 35, 35) 0%, rgb(26, 23, 23) 100%);
+  padding: 2rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foot-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+  padding: 10px;
+  color: rgb(226, 226, 199);
+}
+
+.foot-sub > p {
+  font-family: "Bebas Neue", cursive;
+}
+
+.foot-sub-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.foot-sub-text {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.foot-input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(226, 226, 199);
+}
+
+.foot-links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.foot-link-wraper {
+  display: flex;
+}
+
+.foot-link-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.foot-link-items h2 {
+  margin-bottom: 16px;
+}
+
+.foot-link-items > h2 {
+  color: rgb(226, 226, 199);
+}
+
+.foot-link-items a {
+  color: rgb(226, 226, 199);
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.foot-link-items a:hover {
+  color: rgb(233, 146, 120);
+  transition: 0.3s ease-out;
+}
+
+.foot-input::placeholder {
+  color: rgb(172, 169, 168);
+}
+
+.social-icon-link {
+  color: rgb(226, 226, 199);
+  font-size: 24px;
+}
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto 0 auto;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social-logo {
+  color: rgb(226, 226, 199);
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+}
+
+.fa-affiliatetheme {
+  margin-top: 0.25rem;
+}
+
+.legal {
+  color: rgb(226, 226, 199);
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 820px) {
+  .foot-links {
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+
+  .foot-input {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .foot-link-wraper {
+    flex-direction: column;
+  }
+
+  .social-media-wrap {
+    flex-direction: column;
+  }
+}
